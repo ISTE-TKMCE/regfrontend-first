@@ -1,0 +1,49 @@
+*{
+
+padding:0;
+box-sizing:border-box;
+position:relative;
+}
+body{
+    color:white;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    background-color: rgba(0,0,0,0.3);
+    border-radius:7px ;
+    justify-content:center;
+    align-items:center;
+    color: blue;
+
+}
+
+.inner-container{
+color: rgba(0,0,0,0.3);
+border-radius: .2px;
+}
+
+
+
+.btn btn-primary btn-lg
+{
+color:rgb(114, 26, 197);
+
+}
+h2{
+    
+    color: blueviolet;
+}
+p{
+    color:blue;
+}
+.toggle
+{
+color: #fff !important;
+}
+.btch
+{
+background-color: blueviolet;
+}

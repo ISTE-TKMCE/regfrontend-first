@@ -14,317 +14,515 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>registration firstyear</title>
+    <title>registration first year</title>
   </head>
   <body>
-    <div class="container">
-      <div class="inner-container">
-       <form action="">
+    <div class="outer-container">
 
-        <div class="main">
-            <div class="jumbtron">
-              <div class="register">
-                <h2>ISTE TKMCE</h2>
-                <h2>Personal Information</h2>
-                <input type="text" name="Name" placeholder="Name" />
-  
-                &nbsp;
-                <input type="text" name="email" placeholder="email" />
-                <br />
-                <input type="date" name="DOB" placeholder="DOB" />
-                &nbsp;
-  
-                <input type="text" name="+91" placeholder="+91" />
-                <br />
-  
-                <input type="text" name="Department" placeholder="Department" />
-                &nbsp;
-                <div class="btn-group">
-                  <input type="text" name="" id="" placeholder="Year" />
-                  <button
-                    type="button"
-                    class="toggle"
-                    class="btn btn-danger dropdown-toggle dropdown-toggle-split"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">1</a>
-                    <a class="dropdown-item" href="#">2</a>
-                    <a class="dropdown-item" href="#">3</a>
-                    <a class="dropdown-item" href="#">4</a>
-                  </div>
-                </div>
-                &nbsp;
-                <div class="btn-group">
-                  <button type="button" class="btn btn-danger">Batch</button>
-                  <button
-                    type="button"
-                    class="btn btn-danger dropdown-toggle dropdown-toggle-split"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">A</a>
-                    <a class="dropdown-item" href="#">B</a>
-                    <a class="dropdown-item" href="#">C</a>
-                  </div>
-                </div>
-                <br />
-                <input type="text" placeholder="Reg Year" />
-                &nbsp;
-                <input type="text" placeholder="Admission No" />
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
-          <div class="addint">
-            <h2>Add Your Interests</h2>
-            <p>Select only 2 Interests, 2 Career preferences and 3 Services</p>
-   
-           
-            &nbsp;
-  
+                  
+                  <h2 class = "mx-auto mb-2 mt-2 text-center"><img id = 'iste-logo' src="https://join.istetkmce.in/iste.png" class = "img-fluid img-responsive my-auto" alt=""> REGISTRATION</h2>
+        <div class="container">
+            <div class="inner-container-wrapper row">
 
-            <!-- form group wiht dropdown button -->
+              <div class="inner-container-1 col-md-8 mx-auto">
+            <h3 class = "text-center mt-3">Personal information</h3>
 
-
-            <div class="form-row mt-1 mb-1">
-        
-                <div class=" form-group col-sm-4 col-12 p-2">
-
-                    <div class="dropdown open drop-1">
-                        <button class="btn  dropdown-toggle w-100" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <h5>Special Interest</h5>
-                        </button>
-                        <div class="dropdown-menu w-100 pl-3 pr-3" aria-labelledby="triggerId">
-                            <p class="dropdown-item pt-0 pb-0">
-                                <div class="form-check">
-                                    <div id="check1">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Sports">
-                                            Sports
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Games">
-                                            Games
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Reading">
-                                            Reading
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Literacy">
-                                            Literary
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Drama">
-                                            Drama
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Music">
-                                            Music
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="interest[]" id="" value="Photography">
-                                            Photography
-                                        </label>
-                                    </div>
-                                    <script type="text/javascript">
-                                        var array = []
-                                        var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
-                                        if (checkboxes.length < 2) {
-                                            alert("You can only select a maximum of " + limit + " items from this section")
-                                            this.checked = false
-                                        }
-                                        // checkboxlimit(array, 2)
-                                    </script>
-                                </div>
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class=" form-group col-sm-4 col-12 p-2">
-
-                    <div class="dropdown open  drop-1">
-                        <button class="btn  dropdown-toggle w-100" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <h5>Career Preference</h5>
-                        </button>
-                        <div class="dropdown-menu w-100 pr-3 pl-3" aria-labelledby="triggerId">
-                            <p class="dropdown-item" href="#">
-                                <div class="form-check">
-                                    <div id="check2" name="check2">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Teaching">
-                                            Teaching
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Research Work">
-                                            Research Work
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Government Job">
-                                            Govt. Job
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Public Sector">
-                                            Public Sector Undertaking
-                                        </label>
-                                    </div>
-
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Private">
-                                            Private Industry
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Studies">
-                                            Higher Studies
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="career[]" id="" value="Management Studies">
-                                            Management Studies
-                                        </label>
-                                    </div>
-                                    <script type="text/javascript">
-                                        checkboxlimit(document.forms.check2.career, 2)
-                                    </script>
-                                </div>
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" form-group col-sm-4 col-12  p-2">
-                    <div class="dropdown open drop-1">
-                        <button class="btn dropdown-toggle w-100" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <h5>Type of services</h5>
-                        </button>
-                        <div class="dropdown-menu w-100 pr-3 pl-3" aria-labelledby="triggerId">
-                            <p class="dropdown-item" href="#">
-                                <div class="form-check">
-                                    <div id="check3">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Coaching for competitive examination, job interview">
-                                            Coaching for competitive <br> examination, job interview
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Supervisory and
-                                            communication skill development">
-                                            Supervisory and
-                                            communication <br> skill development
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Training for self-employment">
-                                            Training for self-employment
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Guidance on job opportunities in India and abroad">
-                                            Guidance on job opportunities
-                                            <br>in India and abroad
-                                        </label>
-                                    </div>
-
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Arranging training in industries and visit to industry">
-                                            Arranging training in industries <br> and visit to industry
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="Awareness on social, cultural and ethical values and norms">
-                                            Awareness on social, cultural <br> and ethical values and norms
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="services[]" id="" value="General counselling services">
-                                            General counselling services
-                                        </label>
-                                    </div>
-                                    <script type="text/javascript">
-                                        checkboxlimit(document.forms.check3.services, 3)
-                                    </script>
-                                </div>
-                            </p>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-            </div>
-            <!-- form end -->
-        
-            <h2>Declaration</h2>
+                <form action="">
+                  <div class="form-row">
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">Name</label>
       
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="First name"
+                      />
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">Email</label>
+      
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="email"
+                      />
+                    </div>
+                  </div>
+      
+                  <div class="form-row">
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">DOB</label>
+      
+                      <input type="date" class="form-control" placeholder="DOB" />
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">Mobile</label>
+      
+                      <input
+                        type="number"
+                        class="form-control"
+                        placeholder="Mobile no"
+                      />
+                    </div>
+                  </div>
+      
+                  <div class="form-row">
+                    <div class="col-12 col-md-4">
+                      <label for="inputState">Branch</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Mech(M)</option>
+                      </select>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <label for="inputState">Batch</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                      </select>
+                    </div>
+      
+                    <div class="col-12 col-md-4">
+                      <label for="inputState">Year</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                  </div>
+      
+                  <div class="form-row">
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">Reg Year</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>2021</option>
+                      </select>
+                    </div>
+      
+                    <div class="col-12 col-md-6">
+                      <label for="inputState">Admission No</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Ad no"
+                      />
+                    </div>
+                  </div>
 
 
+                  <h3 class = "text-center text-capitalize mt-5 mb-3">Add your interest</h3>
 
-            <p>
-              I agree to abide by the rules and the regulations of the ISTE
-              regarding Student Membership and functioning of Student
-              Chapters.Single Student Membership will not be entertained. Kindly
-              apply along with all Students and through ISTE Student Chapter only.
-            </p>
-            <br /><br />
-            <input class="btn btn-secondary" type="submit" value="Register" />
+      
+                  <div class="form-row">
+                    <div class="col mt-4">
+                      <div class="dropdown">
+                        <button
+                          class="btn btn-primary dropdown-toggle w-100"
+                          type="button"
+                          id="dropdownMenuButton"
+                          data-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Special Interest
+                        </button>
+                        <div
+                          class="dropdown-menu w-100"
+                          aria-labelledby="dropdownMenuButton"
+                        >
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Sports
+                            </label>
+                          </div>
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Games
+                            </label>
+                          </div>
+      
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Reading
+                            </label>
+                          </div>
+      
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Literary
+                            </label>
+                          </div>
+      
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Drama
+                            </label>
+                          </div>
+      
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Music
+                            </label>
+                          </div>
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Photography
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mt-4">
+                      <div class="dropdown">
+                        <button
+                          class="btn btn-primary dropdown-toggle w-100"
+                          type="button"
+                          id="dropdownMenuButton"
+                          data-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Career Preference
+                        </button>
+                        <div
+                          class="dropdown-menu w-100"
+                          aria-labelledby="dropdownMenuButton"
+                        >
+                          <div class="form-check dropdown-item">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Teaching
+                            </label>
+                          </div>
+      
+                          <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Research Work
+                              </label>
+                            </div>
+      
+      
+                            <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Govt. Jobs
+                              </label>
+                            </div>
+      
+      
+                            <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                  Public Sector Undertaking
+      
+                              </label>
+                            </div>
+      
+      
+                            <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                  Private Industry
+                              </label>
+                            </div>
+      
+      
+                            <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                  Higher Studies
+                              </label>
+                            </div>
+      
+                            <div class="form-check dropdown-item">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault">
+                                  Management Studies
+                              </label>
+                            </div>
+      
+                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="form-row">
+                    <div class="col mt-4">
+                      <div class="dropdown">
+                        <button
+                          class="btn btn-primary dropdown-toggle w-100"
+                          type="button"
+                          id="dropdownMenuButton"
+                          data-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Types of Services
+                        </button>
+                        <div
+                          class="dropdown-menu w-100"
+                          aria-labelledby="dropdownMenuButton"
+                        >
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                              Coaching for competitive examination, job interview
+      
+                          </label>
+                        </div>
+      
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                              Supervisory and communication skill
+                          </label>
+                        </div>
+      
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                              Training for self-employment
+      
+                          </label>
+                        </div>
+      
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                              Guidance on job opportunities in India and abroad
+      
+                          </label>
+                        </div>
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                              Arranging training in industries and visit to industry
+      
+                          </label>
+                        </div>
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                        Awareness on social, cultural and ethical values and norms
+                          </label>
+                        </div>
+      
+                        <div class="form-check dropdown-item">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault">
+                        General counselling services
+                          </label>
+                        </div>
+                         
+                       
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+      
+              
+            </div>
+      
+            
           </div>
-       </form>
-      </div>
+
+
+          <div class="container">
+              
+            <div class="inner-container-wrapper row">
+
+                <div class="inner-container-2 mx-auto">
+
+                   <div class="card">
+                       <div class="card-body">
+                           <h5 class="card-title text-capitalize">order id</h5>
+                           <p class="card-text" id = "order-id">this is </p>
+                       </div>
+                   </div>
+
+                   <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Registration Fee</h5>
+                        <button class="btn btn-primary font-weight-bolder">Pay  ₹ <span id = "reg-fee">400</span></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body" id = "after-payment">
+                        <h5 class="card-title text-capitalize">payment id</h5>
+                        <p class="card-text" id = "payment-id">2000</p> 
+                        <button class = "btn btn-outline-success font-weight-bolder" id = "verify-fee">Verify</button> 
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+          </div>
+
+          <div class="container">
+              <div class="inner-container-wrapper row">
+                  <div class="inner-container-3 mx-auto">
+
+                    <div class="card">
+                        <div class="card-body">
+                           
+                            <p class="card-text">Name : <span id="user-nm">Athul</span></p>
+                            <p class="card-text">Phone No: <span id = "user-ph">9895356764</span></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Order ID</h5>
+                            <p class="card-text">999999999999</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Payment ID</h5>
+                            <p class="card-text">847487636537</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                          
+                            <div class="success-animation">
+                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+                                </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
